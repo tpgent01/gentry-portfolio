@@ -126,7 +126,7 @@ section {
     border-bottom: 4px solid;
     color: var(--secondary-color);
     padding-bottom: 20px;
-    text-align: right;
+    text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
 }
@@ -178,15 +178,94 @@ section {
     font-size: 22px;
     top: 200px;
 }
+/* About Me Style End */
+
+
+/* Work Style Start */
+.grid-container {
+    display: grid;
+    gap: 10px;
+}
+
+.grid-item-big {
+    width: 100%;
+    border-radius: 14px;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    background-image: url("../assets/images/hero-bg.jpg");
+    text-shadow:2px 2px black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 10px 15px black;
+    grid-column: 1/4;
+    grid-row: 1/8;
+
+}
+.grid-item {
+    width: 100%;
+    border-radius: 14px;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 10px 15px black;
+}
+
+.grid-item span, .grid-item-big span {
+    margin-top: auto;
+    width: 100%;
+    color: var(--primary-color);
+    text-shadow: 2px 2px black;
+    padding: 10px 5px;
+    text-align: left;
+}
+
+.photo {
+    background-image: url("../assets/images/camera.jpeg");
+    grid-column: 4/6;
+    grid-row: 1/4;
+}
+
+.music {
+    background-image: url("../assets/images/music.jpeg");
+    grid-column: 6/8;
+    grid-row: 1/4;
+}
+
+.tech {
+    background-image: url("../assets/images/laptop.jpeg");
+    grid-column: 4/6;
+    grid-row: 4/8;
+}
+
+.play {
+    background-image: url("../assets/images/gundam.jpeg");
+    grid-column: 6/8;
+    grid-row: 4/8;
+}
+/* Work Style End */
 
 /* Contact Me Style Start */
 .links {
+    padding: 20px 35px;
+    font-size: 22px;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%;
-    font-size: 20px;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .phone .email .github .linkedin {
@@ -199,9 +278,10 @@ section {
     text-decoration: none;
 }
 
-.phone:hover, .email:hover, .github:hover, .linkedin:hover {
+.phone a:hover, .email a:hover, .github a:hover, .linkedin a:hover {
     background: var(--secondary-color);
     color: var(--primary-color);
-    border-radius: 15px;
+    border-radius: 50px;
     text-shadow: none;
 } 
+/* Contact Me Style End */
