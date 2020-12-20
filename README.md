@@ -8,9 +8,9 @@ A website to showcase my coding abilities in order to appeal to potential employ
 * CSS
 
 ## Webiste
-https://https://tpgent01.github.io/gentry-portfolio/
+https://tpgent01.github.io/gentry-portfolio/
 
->> insert screenshot <<
+insert screenshot
 
 ## Contribution
 Created by Taylor Gentry
