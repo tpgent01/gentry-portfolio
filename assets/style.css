@@ -206,8 +206,8 @@ section {
     box-shadow: 5px 10px 15px black;
     grid-column: 1/4;
     grid-row: 1/8;
-
 }
+
 .grid-item {
     width: 100%;
     border-radius: 14px;
@@ -225,13 +225,14 @@ section {
     box-shadow: 5px 10px 15px black;
 }
 
-.grid-item span, .grid-item-big span {
+.grid-item span, .grid-item-big a {
     margin-top: auto;
     width: 100%;
     color: var(--primary-color);
     text-shadow: 2px 2px black;
     padding: 10px 5px;
     text-align: left;
+    text-decoration: none;
 }
 
 .photo {
@@ -256,6 +257,10 @@ section {
     background-image: url("../assets/images/gundam.jpeg");
     grid-column: 6/8;
     grid-row: 4/8;
+}
+
+.grid-item-big:hover, .photo:hover, .music:hover, .tech:hover, .play:hover {
+    opacity: 0.5;
 }
 /* Work Style End */
 
