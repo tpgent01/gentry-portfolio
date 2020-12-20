@@ -16,7 +16,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Header Styles Start */
+/* Header Style Start */
 header {
     padding: 20px 35px;
     background-color: var(--secondary-color);
@@ -31,10 +31,10 @@ header {
     background-position: 80%;
     z-index: 9999;
 }
-/* Header Style Ends */
+/* Header Style End */
 
 
-/* Header 1 Styles */
+/* Header 1 Style Start */
 header h1 {
     font-weight: bold;
     margin: 0;
@@ -42,22 +42,25 @@ header h1 {
     color: var(--primary-color);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+/* Header 1 Style End */
 
 
-/* Header a Styles */
+/* Header a Style Start */
 header a {
     text-decoration: none;
     color: var(--primary-color);
 }
+/* Header a Style End */
 
 
-/* Header nav Styles */
+/* Header nav Style Start */
 header nav {
     margin: 7px 0;
 }
+/* Header nav Style End */
 
 
-/* Header nav ul Styles */
+/* Header nav ul Style Start */
 header nav ul {
     display: flex;
     flex: wrap;
@@ -65,9 +68,10 @@ header nav ul {
     align-items: center;
     list-style: none;
 }
+/* Header nav ul Style End */
 
 
-/* Header nav ul li a Styles */
+/* Header nav ul li a Style Starts */
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
@@ -81,15 +85,17 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+/* Header nav ul li a Style End */
 
 
-/* Section Styles */
+/* Section Style Start */
 section {
     padding: 60px;
 }
+/* Section Style End */
 
 
-/* Hero Styles */
+/* Hero Style Start */
 .hero {
     background-image: url("../assets/images/anime-girl.jpeg");
     background-size: cover;
@@ -111,3 +117,91 @@ section {
     line-height: 1.2;
     text-shadow:0 0 50px rgba(0, 0, 0, 0.9);
 }
+/* Hero Style End */
+
+
+/* Section Title Style Start */
+.section-title {
+    font-size: 48px;
+    border-bottom: 4px solid;
+    color: var(--secondary-color);
+    padding-bottom: 20px;
+    text-align: right;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: navy;
+}
+
+.secondary-border {
+    border-color: navy;
+}
+/* Section Title Style End */
+
+
+/* About Me Style Start */
+.about {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taylor {
+    margin: 20px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    flex: 2;
+    display: inline-block;
+}
+
+.taylor-img {
+    background-image: url("../assets/images/gentry.jpg");
+    width: 100%;
+    min-height: 300px;
+    background-size: cover;
+    display: flex;
+    padding: 15px;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-text {
+    padding: 25px;
+    line-height: 1.3;
+    position: relative;
+    font-size: 22px;
+    top: 200px;
+}
+
+/* Contact Me Style Start */
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phone .email .github .linkedin {
+    flex: 1;
+    margin: 15px;
+}
+
+.phone a, .email a, .github a, .linkedin a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.phone:hover, .email:hover, .github:hover, .linkedin:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 15px;
+    text-shadow: none;
+} 
