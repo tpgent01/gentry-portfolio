@@ -38,9 +38,9 @@ header {
 header h1 {
     font-weight: bold;
     margin: 0;
-    font-size: 36px;
+    font-size: 50px;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 /* Header 1 Style End */
 
@@ -115,7 +115,7 @@ section {
     color: white;
     font-size: 25px;
     line-height: 1.2;
-    text-shadow:0 0 50px rgba(0, 0, 0, 0.9);
+    text-shadow: 2px 2px black;
 }
 /* Hero Style End */
 
@@ -264,6 +264,7 @@ section {
 }
 /* Work Style End */
 
+
 /* Contact Me Style Start */
 .links {
     padding: 20px 35px;
@@ -284,9 +285,9 @@ section {
 }
 
 .phone a:hover, .email a:hover, .github a:hover, .linkedin a:hover {
-    background: var(--secondary-color);
-    color: var(--primary-color);
-    border-radius: 50px;
+    background: lightskyblue;
+    color: var(--secondary-color);
+    border-radius: 200%;
     text-shadow: none;
 } 
 /* Contact Me Style End */
