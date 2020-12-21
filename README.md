@@ -10,7 +10,7 @@ A website to showcase my coding abilities in order to appeal to potential employ
 ## Webiste
 https://tpgent01.github.io/gentry-portfolio/
 
-insert screenshot
+![image](file:///Users/taylorgentry/Downloads/_Users_taylorgentry_Desktop_Bootcamp_Challenges_Challenge-2_index.html.png)
 
 ## Contribution
 Created by Taylor Gentry
