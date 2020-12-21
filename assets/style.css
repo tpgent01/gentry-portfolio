@@ -398,14 +398,36 @@ header nav ul li a {
     }
  }
 
-}
-
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 768px) {
+.section {
+    padding: 30px 15px;
+    }
 
+.taylor-img h3, .taylor-img h4, .taylor-img::after {
+     display: none;
+    }
+    
+.taylor-bio h3, .taylor-bio h4 {
+    display: block;
+    }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
+.header, .hero {
+    justify-content: center;
+}
 
+.section-title {
+    width: 100%;
+    }
+
+.taylor {
+    flex: 0 100%;
+    }
+
+.grid-container {
+justify-content: center;
+}
 }
