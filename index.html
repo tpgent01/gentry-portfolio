@@ -3,28 +3,37 @@
 
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/minecraftia" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" integrity="sha512-+WF6UMXHki/uCy0vATJzyA9EmAcohIQuwpNz0qEO+5UeE5ibPejMRdFuARSrl1trs3skqie0rY/gNiolfaef5w==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/style2.css" />
     <title>Taylor Gentry</title>
 </head>
 
-<body>
+<body class="bg-gray-100 overflow-scroll">
     <!-- Navigation Start -->
-    <header>
-    <h1>Taylor Gentry's Portfolio</h1>
-    <nav>
-        <ul>
-            <li>
-                <a href="#about-me">About Me</a>
-            </li>
-            <li>
-                <a href="#work">Work</a>
-            </li>
-            <li>
-                <a href="#contact-me">Contact Me</a>
-            </li>
-        </ul>
-    </nav>
+    <header class="container mx-auto flex flex-row flex-wrap justify-between p-6">
+        <div class="flex items-center flex-no-shrink text-white mr-6">
+            <h1 class="headerName flex text-6xl order-first pt-2">
+                <i class="fas fa-dice-d20"></i>
+                <a href="./index.html">Gentry</a>
+            </h1>
+        </div>
+        <nav class="pt-5">
+            <button id="search-btn" class="search flex-row order-10 font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
+            <a href="#about-me">About Me</a>
+            </button>
+
+            <button id="search-btn" class="search flex-row order-11 font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
+            <a href="#work">Work</a>
+            </button>
+
+            <button id="search-btn" class="search flex-row order-last font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
+            <a href="#contact-me">Contact Me</a>
+            </button>
+        </nav>
     </header>
     <!-- Navigation End -->
 
@@ -63,8 +72,9 @@
 
         <div class="about-text">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                Yo!
             </p>
+            <button class="minecraft-btn mx-auto w-64 text-center text-white truncate p-1 border-2 border-b-4 hover:text-yellow-200">Click me!</button>
         </div>
     </div>
     </section>
@@ -105,18 +115,18 @@
             Contact Me
         </h2>
     <article class="links">
-        <div class="phone">
+        <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
             <a target="_blank" rel="noopener noreferrer" href="tel:5023520421">Call Me</a>
-        </div>
-        <div class="email">
+        </button>
+        <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
             <a target="_blank" rel="noopener noreferrer" href="mailto:tpgent01@outlook.com">Email</a>
-        </div>
-        <div class="github">
+        </button>
+        <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/tpgent01">GitHub</a>
-        </div>
-        <div class="linkedin">
+        </button>
+        <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/taylorgentry/">Linkedin</a>
-        </div>
+        </button>
     </article>
     </div>
     </section>
