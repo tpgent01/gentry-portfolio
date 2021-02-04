@@ -6,6 +6,7 @@ A website to showcase my coding abilities in order to appeal to potential employ
 ## Built With
 * HTML
 * CSS
+* [Coolors](https://coolors.co/)
 
 ## Webiste
 https://tpgent01.github.io/gentry-portfolio/
