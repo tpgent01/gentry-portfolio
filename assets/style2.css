@@ -16,6 +16,10 @@ main {
     color: #F49F0A;
 } 
 
+.headerName {
+    color: black;
+} 
+
 .search {
     background-color: #F49F0A;
     color: white;
