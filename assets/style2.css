@@ -29,6 +29,10 @@ main {
     background-color: #f8d568;
 }
 
+.wdtext {
+    color: #10A7F9;
+}
+
 .hero {
     background-image: url("../assets/images/anime-girl.jpeg");
 }

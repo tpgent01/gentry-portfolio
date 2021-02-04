@@ -8,10 +8,10 @@
     <link href="css/smoothness/jquery-ui-1.9.0.custom.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" integrity="sha512-+WF6UMXHki/uCy0vATJzyA9EmAcohIQuwpNz0qEO+5UeE5ibPejMRdFuARSrl1trs3skqie0rY/gNiolfaef5w==" crossorigin="anonymous" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/site.webmanifest">
     <link rel="stylesheet" href="assets/style2.css" />
     <title>Taylor Gentry</title>
 </head>
@@ -20,12 +20,12 @@
     <!-- Navigation Start -->
     <header class="header container mx-auto flex flex-row flex-wrap justify-between p-6">
         <div class="flex items-center flex-no-shrink text-white mr-6">
-            <h1 class="headerName flex text-6xl order-first pt-2">
+            <h1 class="headerName flex text-6xl order-first pt-2 font-extrabold">
                 <i class="icon fas fa-dice-d20 pr-4"></i>
                 <a href="./index.html">Taylor Gentry</a>
             </h1>
         </div>
-        <nav class="pt-4">
+        <nav class="pt-4 flex flex-wrap flex-shrink space-x-2">
             <button id="search-btn" class="search flex-row order-10 font-bold py-2 px-6 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
                 <a href="./assets/images/T.Gentry Resume copy.pdf" id="trigger">Resume</a>
             </button>
@@ -59,9 +59,9 @@
                 <!-- Mobile -->
                 <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                   <div class="sm:text-center lg:text-left">
-                    <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                    <h1 class="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl md:text-6xl">
                       <span class="block xl:inline">Full-Stack</span>
-                      <span class="block text-indigo-600 xl:inline">Web Developer</span>
+                      <span class="wdtext block xl:inline">Web Developer</span>
                       <span class="block xl:inline text-3xl">- in training</span>
                     </h1>
 
@@ -446,25 +446,25 @@
 
 
 <!-- Contact Me Section Start -->
-<footer id="contact-me" class="footer container mx-auto flex flex-row flex-wrap justify-between p-6">
-    <div class="flex-row">
-        <h2 class="section-title primary-border">
+<footer class="footer container mx-auto flex flex-row flex-wrap flex-shrink justify-between p-6">
+    <div class="flex-row ">
+        <h2 class="section-title primary-border text-4xl text-center pb-4">
             Contact Me
         </h2>
-        <article class="links">
-            <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
+        <article class="flex space-x-6">
+            <button id="search-btn" class="search font-bold py-2 px-8 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
                 <i class="fas fa-mobile-alt"></i>
                 <a target="_blank" rel="noopener noreferrer" href="tel:5023520421">Call Me</a>
             </button>
-            <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
+            <button id="search-btn" class="search font-bold py-2 px-8 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
                 <i class="far fa-paper-plane"></i>
                 <a target="_blank" rel="noopener noreferrer" href="mailto:tpgent01@outlook.com">Email</a>
             </button>
-            <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
+            <button id="search-btn" class="search font-bold py-2 px-8 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
                 <i class="fab fa-github"></i>
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/tpgent01">GitHub</a>
             </button>
-            <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
+            <button id="search-btn" class="search font-bold py-2 px-8 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
                 <i class="fab fa-linkedin"></i>
                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/taylorgentry/">Linkedin</a>
             </button>
