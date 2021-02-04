@@ -59,8 +59,12 @@
                       <span class="block xl:inline">Full-Stack</span>
                       <span class="block text-indigo-600 xl:inline">Web Developer</span>
                     </h1>
-                    <button class="minecraft-btn mx-auto w-64 text-center text-white truncate p-1 border-2 border-b-4 hover:text-yellow-200">Click Me!</button>
-                  </div>
+
+                    <!-- Modal Start -->
+                    <button class="openBtn minecraft-btn mx-auto w-64 text-center text-white truncate p-1 border-2 border-b-4 hover:text-yellow-200">
+                        Click Me!</button>
+                    <!-- Modal End -->
+                </div>
                 </main>
               </div>
             </div>
@@ -74,15 +78,61 @@
 
 <main class="flex-grow">
     <!-- Work Section Start-->
-    <section id="work">
-        <h2 class="section-title secondary-border">
-            Work
-        </h2>
-
-        <div class="grid-container">
-            <div class="grid-item-big">
-                <a target="_blank" rel="noopener noreferrer" href="https://tpgent01.github.io/run-buddy/">Run Buddy</a>
+    <section id="work" class="container mx-auto mt-20 grid grid-sols-1 gap-8 md:grid-cols-2 xl:grid-sols-3">
+        <div class="rounded-lg overflow-hidden">
+            <div class="relative overflow-hidden pb-60">
+                <img
+                    class="absolute h-full w-full object-cover object-center"
+                    src="./assets/images/music.jpeg"
+                    alt=""
+                />
             </div>
+            <div class="relative bg-blue-200">
+                <div class="py-10 px-8">
+                    <h3 class="text-2xl font-bold">Project 1</h3>
+                    <div class="text-gray-600 text-sm font-medium flex mb-4 mt-2">
+                        <p>Some text here</p>
+                    </div>
+                    <p class="leading-7">
+                        project description here.
+                    </p>
+                    <div class="mt-10 flex justify-between items-center">
+                        <div>
+                          <img
+                            src="https://collect.criggzdesign.com/wp-content/uploads/2020/07/Ps.svg"
+                            alt=""
+                            class="w-6"
+                          />
+                        </div>
+                        <a
+                        href="https://collect.criggzdesign.com/index.php/resources/mockups/notepad/"
+                        class="flex items-center"
+                      >
+                        <p class="mr-4">Read more</p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="14.125"
+                          height="13.358"
+                          viewBox="0 0 14.125 13.358"
+                        >
+                          <g transform="translate(-3 -3.293)">
+                            <path
+                              id="Path_7"
+                              data-name="Path 7"
+                              d="M14.189,10.739H3V9.2H14.189L9.361,4.378l1.085-1.085,6.679,6.679-6.679,6.679L9.361,15.566Z"
+                              fill="#1d1d1d"
+                              fill-rule="evenodd"
+                            ></path>
+                          </g>
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
             <div class="grid-item photo" >
                 <span>Photography</span>
             </div>
@@ -100,6 +150,9 @@
     <!-- Work Section End-->
 </main>
 
+<script src="./assets/js/"></script>
+</body>
+
 
 <!-- Contact Me Section Start -->
 <footer id="contact-me" class="footer container mx-auto flex flex-row flex-wrap justify-between p-6">
@@ -107,33 +160,26 @@
         <h2 class="section-title primary-border">
             Contact Me
         </h2>
-    <article class="links">
-        <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
-            <i class="fas fa-mobile-alt"></i>
-            <a target="_blank" rel="noopener noreferrer" href="tel:5023520421">Call Me</a>
-        </button>
-        <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
-            <i class="far fa-paper-plane"></i>
-            <a target="_blank" rel="noopener noreferrer" href="mailto:tpgent01@outlook.com">Email</a>
-        </button>
-        <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
-            <i class="fab fa-github"></i>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/tpgent01">GitHub</a>
-        </button>
-        <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
-            <i class="fab fa-linkedin"></i>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/taylorgentry/">Linkedin</a>
-        </button>
-    </article>
+        <article class="links">
+            <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
+                <i class="fas fa-mobile-alt"></i>
+                <a target="_blank" rel="noopener noreferrer" href="tel:5023520421">Call Me</a>
+            </button>
+            <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
+                <i class="far fa-paper-plane"></i>
+                <a target="_blank" rel="noopener noreferrer" href="mailto:tpgent01@outlook.com">Email</a>
+            </button>
+            <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
+                <i class="fab fa-github"></i>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/tpgent01">GitHub</a>
+            </button>
+            <button id="search-btn" class="search font-bold py-2 px-4 rounded focus:outline-none focus:ring focus:border-blue-300" type="button" id="search-btn">
+                <i class="fab fa-linkedin"></i>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/taylorgentry/">Linkedin</a>
+            </button>
+        </article>
     </div>
-
-
-<script language="javascript" type="text/javascript" src="jquery-1.8.2.js"></script>
-<script src="js/jquery-ui-1.9.0.custom.js"></script>
-<script src="./"></script>
-
 </footer>
-    <!-- Contact Me Section End -->
-    
-</body>
+<!-- Contact Me Section End -->
+
 </html>
